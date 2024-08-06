@@ -15,7 +15,8 @@ Echo.
 echo When it's ready it will be in %sfwpath%
 Echo.
 echo.
-%busybox% wget -q %stockdl%
+echo %busybox% wget -q %stockdl%
+pause
 goto flash
 
 :flash
